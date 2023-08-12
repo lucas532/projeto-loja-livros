@@ -1,0 +1,2 @@
+=== Request
+include::{snippets}/v1/autores/http-request.adoc[]
