@@ -40,6 +40,7 @@ public class Item extends BaseEntity<Item> {
     @NotNull
     @OneToOne
     private Livro livro;
+
     @ManyToOne(fetch = LAZY)
     private Pedido pedido;
 
